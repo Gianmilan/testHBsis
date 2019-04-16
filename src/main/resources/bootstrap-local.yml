@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo
+  cloud:
+    config:
+      enabled: false
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8400
+  servlet:
+    display-name: ${spring.application.name}
