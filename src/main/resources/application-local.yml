@@ -1,0 +1,9 @@
+demo:
+  display-name: demo
+
+weather:
+  appid: 8524275445e52a2fbf499dd3182cb9dd
+
+logging:
+  level:
+    com.example.demo.WeatherFeignClient: DEBUG
