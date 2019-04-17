@@ -1,5 +1,6 @@
-package com.example.demo;
+package com.example.demo.integration;
 
+import com.example.demo.integration.dto.WeatherDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
